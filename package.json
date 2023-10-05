@@ -1,0 +1,67 @@
+{
+  "name": "react-native-calendar-date-picker",
+  "version": "0.0.1",
+  "description": "create your own date picker style by using react-native-custom-date-picker  ",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-calendars": "^1.1301.0",
+    "moment": "*"
+  },
+  "devDependencies": {
+    "react-native-builder-bob": "^0.23.1"
+  },
+  "react-native": "src\\index.tsx",
+  "source": "src\\index.tsx",
+  "module": "lib\\commonjs\\index.js",
+  "types": "src\\index.d.ts",
+  "scripts": {
+    "prepare": "bob build"
+  },
+  "files": [
+    "src",
+    "lib",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahanzaib5244/react-native-calendar-date-picker.git"
+  },
+  "author": "Muhammad Jahanzaib <jahanzaib5244@gmail.com> (https://github.com/jahanzaib5244)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jahanzaib5244/react-native-calendar-date-picker/issues"
+  },
+  "homepage": "https://github.com/jahanzaib5244/react-native-calendar-date-picker#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "react-native",
+    "date-picker",
+    "calendar",
+    "custom-calendar",
+    "custom-date-picker",
+    "date-picker-ios",
+    "date-picker-android"
+  ]
+}
