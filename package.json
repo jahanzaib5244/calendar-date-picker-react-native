@@ -1,11 +1,9 @@
 {
-  "name": "react-native-calendar-date-picker",
-  "version": "0.0.2",
+  "name": "calendar-date-picker-react-native",
+  "version": "0.0.3",
   "description": "create your own date picker style by using react-native-custom-date-picker  ",
   "main": "src/index.tsx",
   "dependencies": {
-    "react": "*",
-    "react-native": "*",
     "react-native-calendars": "^1.1301.0",
     "moment": "*"
   },

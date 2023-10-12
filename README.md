@@ -169,7 +169,3 @@ Please DO NOT format the files - we're trying to keep a unified syntax and keep 
 ## Questions
 
 Feel free to [Contact me](mailto:jahanzaib5244@gmail.com) or [Create an issue](https://github.com/jahanzaib5244/react-native-calendar-date-picker/issues/new)
-
-## License
-
-Released under the [Mit License](https://opensource.org/licenses/MIT)

@@ -44,6 +44,7 @@ const DatePicker: React.FC<props> = props => {
           <Modal
             visible={props?.visible}
             onRequestClose={props?.onCancel}
+            transparent={true}
             animationType="fade">
             <View
               style={[
